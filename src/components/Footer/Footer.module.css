@@ -1,0 +1,48 @@
+/* Footer.module.css */
+.footer {
+      background-color: rgb(100, 61, 136);
+    padding: 20px;
+    margin-right: 1em;
+    border-radius: 3em;
+ 
+  }
+  
+  .message5 {
+    font-family: fantasy;
+    color: rgb(148, 182, 211);
+      }
+
+    
+  .mail {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  .img {
+
+    display: flex;
+    justify-content: center;
+  }
+  
+  .git {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  
+  .inst {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 10px;
+  }
+  
+  .lin {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+ 
+
+
+  

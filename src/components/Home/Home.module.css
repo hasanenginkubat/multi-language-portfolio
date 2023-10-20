@@ -1,0 +1,181 @@
+.home {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C8ECDF ;
+    background: url("../images/pres.png") center;
+    background-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contact, .about, .skills, .work {
+
+    margin: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 17em;
+
+
+  }
+  
+  .contact {
+
+    --glow-spread-color: rgba(191, 123, 255, 0.568);
+    --enhanced-glow-color: rgba(231, 206, 255, 0.651);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    
+    text-decoration: none;
+
+  }
+  
+  .about {
+    --glow-spread-color: rgba(191, 123, 255, 0.568);
+    --enhanced-glow-color: rgba(231, 206, 255, 0.651);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    
+    text-decoration: none;
+
+  }
+  
+  .skills {
+    --glow-spread-color: rgba(191, 123, 255, 0.568);
+    --enhanced-glow-color: rgba(231, 206, 255, 0.651);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    
+    text-decoration: none;
+
+  }
+  
+  .work {
+    --glow-spread-color: rgba(191, 123, 255, 0.568);
+    --enhanced-glow-color: rgba(231, 206, 255, 0.651);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    
+    text-decoration: none;
+  }
+
+  .skills:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+    font-size: 13px;
+   }
+   .about:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+    font-size: 13px;
+   }
+   .work:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+    font-size: 13px;
+   }
+
+   .profile {
+    margin-right: 90em;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  
+  }
+  .background{
+    background-color: #C8ECDF;
+  
+  }
+  .profile:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+   .contact:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+    font-size: 13px;
+}
+
+  .contact a, .about a, .skills a, .work a {
+    text-decoration: none;
+    color: white;
+
+}
+
+  .avatar img {
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+
+  }
+  .navlink{
+  
+    transform: rotateY(180deg);
+
+  }
+
+  
+
+
+
+ 

@@ -1,0 +1,120 @@
+
+.div {
+  background: url("../images/contactt.png") center;
+  background-size: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.contact-form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+ 
+  .form {
+    margin-left: 33em;
+    margin-top: 10em;
+
+    background: url("../images/TECH\ \(2\).png") center;
+     background-size: 100px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 50%;
+     height: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .labelName, .labelEmail, .labelMsg {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: white;
+
+  }
+  
+  .inputName, .inputEmail, .texterea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+ 
+
+  .success img{
+    margin-left: 11em;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .send {
+    background-color: rgb(100, 61, 136);;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .send:hover {
+    padding: 12px 22px;
+
+  }
+  .thanku{
+    font-family: initial;
+    color: rgb(79, 164, 79);  
+    margin-left: 4em;
+  
+  }
+  .home {
+    border-radius: 1em;
+    margin-left: 105em;
+    background-color: rgb(100, 61, 136);
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em 0.15em rgba(0, 0, 0, 1);
+    text-decoration: none;
+  }
+
+  .profile {
+    margin-right: 90em;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+  
+  }
+  .profile:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  

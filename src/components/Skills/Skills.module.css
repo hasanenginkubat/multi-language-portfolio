@@ -1,0 +1,135 @@
+
+.container{
+
+ background: url("../images/skillerim.png") center;
+    background-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+  .skillsContainer {
+
+    position: absolute;
+   top: 200px;
+
+    background: url("../images/contactt.png") center;
+    margin: 30px;
+    border-radius: 1em;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+  }
+  
+  .skillImage {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 1em;
+  }
+
+  .skillsDiv {
+    border: 2px solid #000;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 3em;
+
+}
+
+.title {
+    
+     font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.roboImg{
+width: 100px;
+height: 100px;
+border-radius: 1em;
+}
+.close {
+    margin-right: 6em;
+    background-color: rgb(100, 61, 136);
+width: 25px;
+height: 25px;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+  }
+  
+  .close:hover {
+    background-color: black;
+}
+.buttonRobo {
+    position: absolute;
+    top: 210px;
+    margin-left: 60em;
+    border-radius: 1em;
+    background-color: rgb(100, 61, 136);
+}
+
+
+.buttonRobo:hover{
+    box-shadow: 1em 1em 1em  black;
+
+
+    
+    }
+.buttonRobo img:hover{
+    width: 110px;
+    height: 110px;
+    border-radius: 1em;
+
+    
+    }
+
+    .profile {
+        margin-bottom: 20em;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        transition: transform 0.2s;
+        text-align: center;
+
+      
+      }
+    
+      .profile:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+      }
+
+    .home {
+        text-decoration: none;
+        border-radius: 1em;
+        background-color: rgb(100, 61, 136);
+        width: 100px;
+        height: 100px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .home:hover {
+        transform: translate(-0.05em, -0.05em);
+        box-shadow: 0.15em 0.15em 0.15em rgba(0, 0, 0, 1);
+        text-decoration: none;
+      }
+
