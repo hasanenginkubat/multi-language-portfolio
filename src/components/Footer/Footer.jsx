@@ -35,7 +35,7 @@ export default function Footer() {
         <a href="https://www.instagram.com/hasanenginkubat/">
           <img className={style.inst} src={instagram} alt="Instagram" />
         </a>
-        <a href="mailto:kubathasanengin@gmail.com">
+        <a href="/contact">
       <img className={style.mail} src={gmail} alt="Gmail" />
         </a>
         <a href="https://www.linkedin.com/in/hasan-engin-kubat-621173255/">

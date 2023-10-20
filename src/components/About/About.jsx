@@ -20,7 +20,7 @@ export default function About() {
         message3: "Geri dön",
       },
       es: {
-        message1: "Holla.",
+        message1: "Hola.",
         message2: "Mi nombre es Hasan Engin. Soy un desarrollador de software seguro y decidido. También trabajo como freelancer. Mis logros de toda la vida en la consecución de lo que deseo reflejan mi determinación y capacidad para superar desafíos. Siempre me motivo a mí mismo con la siguiente expresión: 'Engin, puedes lograr lo que deseas.' Creo que irradian energía positiva hacia las personas en mis relaciones sociales.En mi opinión, un enfoque colaborativo es de gran importancia. Escucho cuidadosamente a los demás, me centro en sus necesidades y establezco relaciones sólidas con mis colegas. Además, aplico con éxito mis habilidades de pensamiento crítico para resolver problemas complejos en muchos proyectos y doy lo mejor de mí para lograr los mejores resultados.Mi disciplina es el resultado de mi compromiso de completar las tareas a tiempo y con alta calidad. Siempre mantengo mi motivación alta para alcanzar mis objetivos y le doy una gran importancia al desarrollo profesional.En el futuro, aspiro a trabajar en proyectos nuevos y emocionantes. Espero con entusiasmo contribuir a las innovaciones tecnológicas colaborando con mis empleadores y alcanzar un mayor éxito.",
         message3: "Inicio",
 

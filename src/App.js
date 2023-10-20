@@ -7,6 +7,7 @@ import Work from "./components/Work/Work.jsx";
 import Skills from "./components/Skills/Skills"
 import Welcome from "./components/Welcome/Welcome.jsx";
 
+
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,8 @@ function App() {
       <Route exact path="/skills" element={<Skills />} />
       <Route exact path="/about" element={<About />} />
       <Route exact path="/work" element={<Work />} />
+
+
       <Route exact path="/" element={<Welcome />} />
 
       

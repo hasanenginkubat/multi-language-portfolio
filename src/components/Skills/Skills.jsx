@@ -79,7 +79,7 @@ export default function Skills() {
 
       },
       es: {
-        message1: "Mi Habilidades",
+        message1: "Mis Habilidades",
         message2: "Habilidades de Tecnología",
         message3: "Habilidades Sociales",
         message4: "Pensamiento crítico",
@@ -179,7 +179,7 @@ export default function Skills() {
         
         )}
       {!showSImages && !showTImages &&
-      <button style={{marginLeft: "45em"}}className={style.buttonRobo} onClick={showImageSoftHandler}>
+      <button style={{marginLeft: "52em"}}className={style.buttonRobo} onClick={showImageSoftHandler}>
         <img className={style.roboImg} src={softskil} />
       <p  style={{ color: "white"}}>{messages.message3}</p>
       </button>
@@ -187,39 +187,41 @@ export default function Skills() {
    
 
       {showSImages &&(
-        <div className={style.skillsContainer}>
-        <button style={{marginRight: "1em"}}className={style.close} onClick={closeSImagesHandler}>X</button>
+        <div style={{marginLeft: "6em"}}className={style.skillsContainer}>
+        <button style={{marginRight: "10px"}}className={style.close} onClick={closeSImagesHandler}>X</button>
         <div className={style.skillsDiv}>
-          <img style={{ width: "300px", height: "300px"}}className={style.skillImage} src={think} alt="Git" />
+          <img style={{ width: "200px", height: "200px"}}className={style.skillImage} src={think} alt="Git" />
           <p>{messages.message4}</p>
         </div>
         <div className={style.skillsDiv}>
-          <img style={{ width: "300px", height: "300px"}}className={style.skillImage} src={team} alt="Git" />
+          <img style={{ width: "200px", height: "200px"}}className={style.skillImage} src={team} alt="Git" />
           <p>{messages.message5}</p>
         </div>
         <div className={style.skillsDiv}>
-          <img style={{ width: "300px", height: "300px"}}className={style.skillImage} src={solving} alt="Git" />
+          <img style={{ width: "200px", height: "200px"}}className={style.skillImage} src={solving} alt="Git" />
           <p>{messages.message7}</p>
         </div>
         <div className={style.skillsDiv}>
-          <img style={{ width: "300px", height: "300px"}}className={style.skillImage} src={lider} alt="Git" />
+          <img style={{ width: "200px", height: "200px"}}className={style.skillImage} src={lider} alt="Git" />
           <p>{messages.message6}</p>
         </div>
         <div className={style.skillsDiv}>
-          <img style={{ width: "300px", height: "300px"}}className={style.skillImage} src={moti} alt="Git" />
+          <img style={{ width: "200px", height: "200px"}}className={style.skillImage} src={moti} alt="Git" />
           <p>{messages.message8}</p>
         </div>
         </div>
         
         )}
    
-      {!showTImages && (
+      {showTImages ||  !showSImages &&(
           <div style={{alignItems: "center", justifyContent: "center", display: "flex" }}>
           <Footer />
   
           </div>
         
         )}
+
+        
       
 
     </div>
