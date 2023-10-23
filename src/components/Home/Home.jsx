@@ -1,13 +1,26 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { NavLink } from "react-router-dom";
 import { useSelector } from "react-redux";
 import style from  "./Home.module.css"
 import avatar from "../images/avat.jpeg"
 import Footer from "../Footer/Footer"
-import engin from "../images/engin.jpg"
+import Loading from "../Loading/Loading";
 
 export default function Home() {
   const language = useSelector((state) => state.language);
+  const [carga, setCarga] = useState(true);
+
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCarga(false);
+    }, 1000);
+
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+
 
   const languages = {
     en: {
@@ -34,11 +47,20 @@ export default function Home() {
     },
   };
 
+
+
   const messages = languages[language];
 
+  if (carga) {
+    return (
+     <Loading/>   
+    )
+  }
   return (
     <div className={style.all}>
-
+  {carga ? (
+        <Loading />
+      ) : (
 
     
     <div className={style.home}>
@@ -72,6 +94,7 @@ export default function Home() {
         </NavLink>
         </div>
       </div>
+      )}
     </div>
   );
 }

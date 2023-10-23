@@ -1,0 +1,33 @@
+.divContainer {
+    
+    width: 100%;
+    height: 100vh;
+    background: 
+    url("../images/homee.png")
+    no-repeat;
+    background-size: cover;
+    display: absolute;
+    
+}
+
+.load {
+    border-radius: 2em;
+
+  height: 100vh;
+  text-align: center;
+  image-resolution: 10%;
+  margin: 0px ;
+  padding: 0px;
+  place-items: center;
+}
+
+.img {
+
+  height: 50%;
+  display: absolute;
+  align-items: center;
+  place-items: center;
+  padding: 230px 0px 200px 5px;
+  margin-top: 2em;
+  place-items: center;
+}
