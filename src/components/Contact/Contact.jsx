@@ -57,7 +57,7 @@ const Contact = () => {
       e.preventDefault();
       setIsError(false);
 
-      emailjs.sendForm('', '', form.current, '')
+      emailjs.sendForm('service_qgzmzkp', 'template_dkmqkqh', form.current, 'raDVxTHuLKbS9Buuq')
         .then((result) => {
           console.log(result.text);
           setIsSuccess(true);
